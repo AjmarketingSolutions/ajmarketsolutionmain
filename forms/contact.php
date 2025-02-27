@@ -29,7 +29,7 @@
     'host' => 'ajmarketingsolutions.in',
     'username' => 'customersupport@ajmarketingsolutions.in',
     'password' => '009Ajmaketingtvm##',
-    'port' => '465'
+    'port' => '587'
   );
   
 
