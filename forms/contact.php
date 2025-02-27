@@ -26,7 +26,7 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
-    'host' => 'https://ajmarketingsolutions.in',
+    'host' => 'ajmarketingsolutions.in',
     'username' => 'customersupport@ajmarketingsolutions.in',
     'password' => '009Ajmaketingtvm##',
     'port' => '465'
@@ -38,4 +38,6 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
+
+ 
 ?>
