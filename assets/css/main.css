@@ -267,7 +267,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, var(--accent-color) 0%, rgb(1, 113, 23) 50%);
 }
 
 @media (max-width: 1200px) {
@@ -1378,7 +1378,7 @@ section,
 }
 
 .call-to-action .cta-btn:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background: color-mix(in srgb, var(--accent-color) 0%, rgb(2, 160, 33) 50%);
 }
 
 /*--------------------------------------------------------------
@@ -1754,3 +1754,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+
